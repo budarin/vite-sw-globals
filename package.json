@@ -1,0 +1,39 @@
+{
+    "name": "app",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite serve"
+    },
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.24.8",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@types/node": "^20.14.10",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@typescript-eslint/eslint-plugin": "^7.13.1",
+        "@typescript-eslint/parser": "^7.13.1",
+        "@vitejs/plugin-react": "^4.3.1",
+        "browserslist": "^4.23.2",
+        "browserslist-to-esbuild": "^2.1.1",
+        "caniuse-lite": "^1.0.30001641",
+        "core-js": "^3.37.1",
+        "eslint": "^8.57.0",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "eslint-plugin-react-refresh": "^0.4.7",
+        "prettier": "^3.3.2",
+        "typescript": "^5.2.2",
+        "vite": "^5.3.1",
+        "vite-bundle-analyzer": "^0.10.3",
+        "vite-plugin-compression2": "^1.1.2"
+    },
+    "sideEffects": [
+        "**/*.css"
+    ],
+    "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5"
+}
