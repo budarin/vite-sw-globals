@@ -4,7 +4,7 @@ import { defineConfig, UserConfigFnObject, UserConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 const viteConfig: UserConfigFnObject = defineConfig(() => {
-    const config: UserConfig = {
+    return {
         define: {
             VERSION: JSON.stringify(version),
         },
@@ -24,8 +24,6 @@ const viteConfig: UserConfigFnObject = defineConfig(() => {
             port: 3000,
         },
     };
-
-    return config;
 });
 
 export default viteConfig;
