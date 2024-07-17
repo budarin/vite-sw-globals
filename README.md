@@ -1,3 +1,3 @@
 # vite-sw-globals
 
-Detect problem with globals in sw
+Detect a problem with globals in sw
