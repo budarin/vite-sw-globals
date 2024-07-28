@@ -12,7 +12,11 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 );
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register(new URL('sw/index.mts', import.meta.url), {
-        type: 'module',
-    });
+    import.meta.env.DEV
+        ? navigator.serviceWorker.register(new URL('sw/index.mts', import.meta.url), {
+              type: 'module',
+          })
+        : navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`, {
+              type: 'module',
+          });
 }
