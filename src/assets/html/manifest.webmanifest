@@ -1,0 +1,97 @@
+{
+    "id": "my-tasks",
+    "name": "Мои Задачи",
+    "short_name": "Мои Задачи",
+    "start_url": "./",
+    "lang": "ru-RU",
+    "theme_color": "#bfdbfe",
+    "background_color": "#dbeafe",
+    "display": "standalone",
+    "description": "Приложение для управления задачами на каждый день.",
+    "categories": ["events", "personalization", "development"],
+    "icons": [
+        {
+            "src": "/src/assets/html/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/src/assets/html/icons/android-chrome-maskable-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/src/assets/html/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/src/assets/html/icons/android-chrome-maskable-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/src/assets/html/icons/icon.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/src/assets/pwa/install-wide.png",
+            "sizes": "2784x1993",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Мои Задачи на десктопе"
+        },
+        {
+            "src": "/src/assets/pwa/install-narrow1.png",
+            "sizes": "570x1016",
+            "type": "image/png",
+            "label": "Мои Задачи в вашем телефоне"
+        },
+        {
+            "src": "/src/assets/pwa/install-narrow2.png",
+            "sizes": "567x1017",
+            "type": "image/png",
+            "label": "Мои Задачи в вашем телефоне."
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Черновики",
+            "url": "./?type=filter&key=inbox",
+            "description": "Список задач, которые еще не распределены по календарю",
+            "icons": [
+                { "src": "/src/assets/html/icons/android-chrome-192x192.png", "sizes": "192x192" }
+            ]
+        },
+        {
+            "name": "Просроченные задачи",
+            "url": "./?type=filter&key=expired",
+            "description": "Список задач, у которых истек срок исполнения",
+            "icons": [
+                { "src": "/src/assets/html/icons/android-chrome-192x192.png", "sizes": "192x192" }
+            ]
+        },
+        {
+            "name": "Завершённые задачи",
+            "url": "./?type=filter&key=completed",
+            "description": "Список задач, которые успешно завершены",
+            "icons": [
+                { "src": "/src/assets/html/icons/android-chrome-192x192.png", "sizes": "192x192" }
+            ]
+        },
+        {
+            "name": "Корзина",
+            "url": "./?type=filter&key=trash",
+            "description": "Список задач, которые помещены в корзину для удаления",
+            "icons": [
+                { "src": "/src/assets/html/icons/android-chrome-192x192.png", "sizes": "192x192" }
+            ]
+        }
+    ]
+}
