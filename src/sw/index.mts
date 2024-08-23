@@ -1,3 +1,3 @@
-import '/@vite/env';
+import '@vite/env';
 
 console.log('VERSION', VERSION);
