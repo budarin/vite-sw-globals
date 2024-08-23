@@ -1,2 +1,3 @@
-console.log('VERSION', VERSION);
+import '/@vite/env';
 
+console.log('VERSION', VERSION);
